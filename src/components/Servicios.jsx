@@ -19,7 +19,7 @@ export default function Servicios (){
                     <h2>Podcast</h2>
                     <div className='Citas'>
                        <Tarjeta 
-                            img={'../../dist/pd_1.jpg'}
+                            img={'../pd_1.jpg'}
                             Descripcion={'Podcast 1'}
                             link={'https://www.youtube.com/'}
                        />
