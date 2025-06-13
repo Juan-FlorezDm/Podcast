@@ -1,0 +1,23 @@
+
+.App{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.izquierda{
+    width: 45%;
+    overflow: hidden;
+}
+
+.derecha{
+    width: 55%;
+    overflow: hidden;
+    position: sticky;
+}
+
+.content{
+    height: 2000px;
+}
