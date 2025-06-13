@@ -1,0 +1,138 @@
+.site-footer {
+  background-color: #2D3047;
+  color: #FFFFFF;
+  padding: 3rem 2rem;
+  margin-top: auto; /* Mantiene el footer abajo */
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-section {
+  margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+  color: #F18F01;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #A23B72;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  margin-top: 1rem;
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+}
+
+.team-list li {
+  margin-bottom: 1rem;
+}
+
+.team-list strong {
+  display: block;
+  color: #FFFFFF;
+}
+
+.team-list span {
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-list .icon {
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.contact-list a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-list a:hover {
+  color: #F18F01;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #F18F01;
+  transform: translateY(-3px);
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.copyright {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+  }
+  
+  .footer-section {
+    margin-bottom: 1.5rem;
+  }
+}
