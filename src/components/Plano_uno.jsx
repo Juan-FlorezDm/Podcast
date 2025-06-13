@@ -29,7 +29,7 @@ export default function Plano_uno(){
                         <p className='num'>
                             
                         </p>
-                        <a target='_blank' href="https://www.instagram.com/etitc/"><img src="../../../public/instagram.png" alt="Instagram" className='insta'/></a>
+                        <a target='_blank' href="https://www.instagram.com/etitc/"><img src="../instagram.png" alt="Instagram" className='insta'/></a>
                     </div>
                     
                 </div>

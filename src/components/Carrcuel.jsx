@@ -20,14 +20,14 @@ const Carrucel = ({imagenes}) => {
              <div className='muestras'>
                     <button className='btn_carrusel' onClick={anterior}>
                         <img 
-                            src="/public/anterior.png" 
+                            src="../anterior.png" 
                         />
                     </button>
                         <img src={imagenes[indice]} alt="imagenes" />
                     
                     <button className='btn_carrusel' onClick={siguiente}>
                         <img 
-                            src="/public/proximo.png" 
+                            src="../proximo.png" 
                         />
                     </button>
                 </div>

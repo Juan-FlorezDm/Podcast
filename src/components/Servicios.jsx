@@ -24,37 +24,37 @@ export default function Servicios (){
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_2.webp'}
+                            img={'../pd_2.webp'}
                             Descripcion={'Podcast 2'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_3.webp'}
+                            img={'../pd_3.webp'}
                             Descripcion={'Podcast 3'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_4.png'}
+                            img={'../pd_4.png'}
                             Descripcion={'Podcast 4'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_5.jpg'}
+                            img={'../pd_5.jpg'}
                             Descripcion={'Podcast 5'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_6.jpg'}
+                            img={'../pd_6.jpg'}
                             Descripcion={'Podcast 6'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../public/pd_7.jpg'}
+                            img={'../pd_7.jpg'}
                             Descripcion={'Podcast 7'}
                             link={'https://www.youtube.com/'}
                        />
                        <Tarjeta 
-                            img={'../../dist/pd_8.png'}
+                            img={'../pd_8.png'}
                             Descripcion={'Podcast 8'}
                             link={'https://www.youtube.com/'}
                        />
