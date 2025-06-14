@@ -8,9 +8,9 @@ const PodcastsSection = () => {
       {
         id: 1,
         img: '/pd_1.jpg',
-        title: 'El Futuro de los Podcasts Educativos',
-        description: 'Explorando cómo los podcasts están revolucionando la enseñanza',
-        link: 'https://www.youtube.com/'
+        title: 'Detrás del Micrófono',
+        description: ' ¿Por qué crear una página de podcast?',
+        link: '/Detrás del Micrófono(1).mp4'
       },
       {
         id: 2,
